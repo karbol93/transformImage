@@ -5,8 +5,8 @@ int main( int argc, char** argv )
 {
   cv::Mat image;
   image = cv::imread("../example_image.jpg");
-  unsigned imgSize = image.rows * image.cols * 3; // 3= RGB, 1= Monochromatic
-   
+  unsigned imgSize = image.rows * image.cols * image.channels(); 
+
   while ( ! image.isContinuous() )
   { 
       image = image.clone();
