@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pi/Desktop/image_value
+CMAKE_SOURCE_DIR = /home/pi/Desktop/image_value/transformImage
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pi/Desktop/image_value/build
+CMAKE_BINARY_DIR = /home/pi/Desktop/image_value/transformImage/build
 
 #=============================================================================
 # Target rules for target CMakeFiles/transformImage.out.dir
@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = /home/pi/Desktop/image_value/build
 CMakeFiles/transformImage.out.dir/all:
 	$(MAKE) -f CMakeFiles/transformImage.out.dir/build.make CMakeFiles/transformImage.out.dir/depend
 	$(MAKE) -f CMakeFiles/transformImage.out.dir/build.make CMakeFiles/transformImage.out.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/Desktop/image_value/build/CMakeFiles --progress-num=1,2 "Built target transformImage.out"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/Desktop/image_value/transformImage/build/CMakeFiles --progress-num=1,2 "Built target transformImage.out"
 .PHONY : CMakeFiles/transformImage.out.dir/all
 
 # Include target in all.
@@ -76,9 +76,9 @@ all: CMakeFiles/transformImage.out.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/transformImage.out.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/Desktop/image_value/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/Desktop/image_value/transformImage/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/transformImage.out.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/Desktop/image_value/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/Desktop/image_value/transformImage/build/CMakeFiles 0
 .PHONY : CMakeFiles/transformImage.out.dir/rule
 
 # Convenience name for target.

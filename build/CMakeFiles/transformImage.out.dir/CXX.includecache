@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/pi/Desktop/image_value/transformImage.cpp
+/home/pi/Desktop/image_value/transformImage/transformImage.cpp
 opencv2/opencv.hpp
-/home/pi/Desktop/image_value/opencv2/opencv.hpp
+/home/pi/Desktop/image_value/transformImage/opencv2/opencv.hpp
 iostream
 -
 

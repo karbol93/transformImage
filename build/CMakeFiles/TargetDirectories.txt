@@ -1,3 +1,3 @@
-/home/pi/Desktop/image_value/build/CMakeFiles/rebuild_cache.dir
-/home/pi/Desktop/image_value/build/CMakeFiles/edit_cache.dir
-/home/pi/Desktop/image_value/build/CMakeFiles/transformImage.out.dir
+/home/pi/Desktop/image_value/transformImage/build/CMakeFiles/rebuild_cache.dir
+/home/pi/Desktop/image_value/transformImage/build/CMakeFiles/edit_cache.dir
+/home/pi/Desktop/image_value/transformImage/build/CMakeFiles/transformImage.out.dir

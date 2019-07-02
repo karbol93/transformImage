@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/pi/Desktop/image_value/transformImage.cpp" "/home/pi/Desktop/image_value/build/CMakeFiles/transformImage.out.dir/transformImage.cpp.o"
+  "/home/pi/Desktop/image_value/transformImage/transformImage.cpp" "/home/pi/Desktop/image_value/transformImage/build/CMakeFiles/transformImage.out.dir/transformImage.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
