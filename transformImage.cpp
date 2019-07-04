@@ -14,26 +14,30 @@ unsigned changeValue(unsigned value)
     return temp;
 }
 
+cv::Mat imageMinusValue(cv::Mat image, unsigned value)
+{
+    value = changeValue(value);
+    unsigned imgSize = image.rows * image.cols * image.channels();
+    uint32_t * imageData = (uint32_t*)image.data;
+
+    for( unsigned i = 0; i < imgSize; i = i + 4)
+    {
+        *imageData++ -= value; 
+    }
+    return image;
+}
+
 int main( int argc, char** argv )
 {
   cv::Mat image;
   image = cv::imread("../example_image.jpg");
-  unsigned value = 200;
-  value = changeValue(value);
-  unsigned imgSize = image.rows * image.cols * image.channels(); 
-
   while ( ! image.isContinuous() )
   { 
       image = image.clone();
   }
   
-  uint32_t * imageData = (uint32_t*)image.data;
-  
-  for( unsigned i = 0; i < imgSize; i = i + 4)
-  {
-      *imageData++ -= value; 
-  }
-  
+  unsigned value = 200;
+  image = imageMinusValue(image,value);  
   cv::imwrite("../transformed_image.jpg",image);
 
   return 0;
